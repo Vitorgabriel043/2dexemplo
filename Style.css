@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #000;
-    padding: 15px 20px;
+    padding: 15px \0px;
     color:rgb(15, 15, 15)
 }
 .cabecalho_logo{
@@ -36,5 +36,22 @@
     .cabecalho{
         flex-direction: column;
         align-items: flex-start;
+    }
+    .cabecalho_logo{
+        display:none;
+    }
+    .menu ul{
+        flex-direction: column;
+        width:100%;
+        margin:0;
+    }
+    .menu li {
+        width:100%;
+    }
+    .menu a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
